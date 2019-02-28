@@ -1,0 +1,236 @@
+body, html, div, li, ul {
+    font-family:   Roboto, "Open Sans", "Helvetica Neue", "Segoe UI", Arial, sans-serif !important;
+    /*background-color: #ffffff ;*/
+}
+
+h1, h4, h5 {
+    color: #000000 !important;
+    font-family: Roboto, "Open Sans", Arial, sans-serif !important;
+}
+
+nav {
+    height: 3.1rem; /*3.1rem*/
+    /*height: 55px; !*3.1rem*!*/
+}
+
+nav.nav-scroll {
+    position: relative;
+    z-index: 2;
+    height: 2rem;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    padding: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.075);
+    line-height: 1em;
+}
+nav.nav-scroll > ul {
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 1rem;
+}
+nav.nav-scroll > ul > li > a {
+    font-weight: 500;
+}
+.news-slide > li > .uk-card {
+    box-shadow: none;
+    border:  1px solid rgba(0,0,0,0.075);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+#header.uk-sticky-below {
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.07);
+}
+.uk-navbar-nav > li > a{
+    text-transform: none;
+    min-height: 55px !important;
+    height: 55px !important;
+}
+
+.logo{
+    height: 20px !important;
+}
+
+.uk-navbar-nav {
+    height: inherit;
+}
+
+.header-search {
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+}
+
+.uk-search-input {
+    color: #000000;
+    font-size: 1.3rem !important;
+
+}
+
+.black-border {
+    border-color: #000 !important;
+}
+
+.text-transform-no {
+    text-transform: none !important;
+}
+
+.border-no {
+    border: 0px !important;
+}
+
+.organisations > ul > li > a {
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    text-transform: none !important;
+
+}
+.organisations > ul > li{
+    margin-right: 30px;
+
+
+}
+.organisations > ul
+{
+    min-height: 18px !important;
+
+}
+
+.text-transform-no > li > a {
+    font-size: 1rem !important;
+    text-transform: none !important ;
+    padding-left: 0px !important;
+
+}
+
+.main-left-menu > ul> .uk-active > a {
+    border-color: #000 !important;
+
+}
+
+.main-left-menu > ul> li > a {
+
+    font-weight: 400 !important;
+}
+
+.services-right-menu > ul > li > a {
+    font-size: 1rem !important;
+    text-transform: none !important ;
+}
+
+.footer-nav {
+    height: 55px !important;
+}
+
+.footer-social-icons > a:hover
+{
+    color: #000000 !important;
+}
+
+
+/*for search*/
+.uk-table > tbody > tr > td, .uk-table > thead > tr > th {
+    padding-left: 0px !important;
+}
+
+.search-logo-company {
+    height: 60px;
+    width: 60px;
+}
+
+
+/*left block*/
+.uk-accordion-title {
+    font-size: 0.9rem !important;
+    color: #999;
+}
+
+.uk-accordion-content {
+    color: #000000;
+}
+
+
+.account-menu .uk-active {
+    font-weight: 500;
+
+}
+
+.account-menu {
+    font-size: 1rem !important;
+}
+
+.account-menu li {
+    margin-bottom: 8px;
+}
+
+
+
+input[type="text"] {
+    -moz-border-radius:4px; /* Firefox */
+    -webkit-border-radius: 4px; /* Safari, Chrome */
+    -khtml-border-radius: 4px; /* KHTML */
+    border-radius: 4px; /* CSS3 */
+    color: #000000 !important;
+}
+
+
+
+
+/*company*/
+
+
+
+nav.company-view-menu > div > ul > li:first-of-type > * {
+    padding-left: 0 !important;
+}
+
+nav.company-view-menu > div > ul > li:last-of-type > *  {
+    padding-right: 0 !important;
+}
+
+
+nav.company-view-menu > div > ul > li.uk-active > * {
+    color: #000000 !important;
+}
+
+.information-phones td {
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+}
+
+.company-links td:first-of-type {
+    width: 30px !important;
+}
+
+.working-time td:first-of-type {
+    width: 60px !important;
+}
+
+
+
+
+.company-information {
+    font-size: 14px !important;
+
+}
+.company-information p, .company-information td {
+    color: #000000 ;
+
+}
+
+
+
+.company-gallery > ul > li {
+    padding-right: 20px;
+}
+.company-gallery > ul > li:first-of-type {
+    padding-left: 0px;
+}
+
+.delete-padding-right{
+    padding-right: 0px !important;
+}
+/*/company*/

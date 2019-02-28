@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>2 new company</title>
+		<link rel="icon" href="img/favicon.ico">
+		<!-- CSS FILES -->
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/css/uikit.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- UIkit JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.20/js/uikit-icons.min.js"></script>
+
+
+
+
+	</head>
+	<body>
+		<div class="uk-offcanvas-content">
+
+
+			<!--HEADER-->
+			<header id="header" style="background-color: #fff;" data-uk-sticky="show-on-up: true; animation: uk-animation-fade; media: @l">
+				<div class="uk-container">
+
+
+					<nav id="navbar" data-uk-navbar="mode: click;">
+
+
+
+						<!--левый блок с лого-->
+						<!--uk-visible@m uk-visible@s указывает на допустимую ширину экрана для скрытия элемента-->
+						<div class="uk-navbar-left nav-overlay"> <!--uk-visible@m-->
+							<ul class="uk-navbar-nav">
+								<li>
+									<a class="uk-padding-remove-left" title="logo"><img class="logo" src="logo.svg" ></a>
+								</li>
+							</ul>
+						</div>
+
+
+
+
+
+						<!--правый блок с меню-->
+						<div class="uk-navbar-right nav-overlay">
+
+							<!--uk-visible@m uk-visible@s указывает на допустимую ширину экрана для скрытия элемента-->
+							<div class="uk-padding-remove-right"> <!--удален класс uk-navbar-item-->
+								<ul id="header-right-menu" class="uk-navbar-nav">
+									<li><!--кнопка поиска лупа   /  убран класс uk-visible@m-->
+
+										<a class="uk-navbar-toggle" data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#">
+											<span uk-icon="search"></span>
+											<!--<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="bo bp c bq br ab">
+												<path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z">
+												</path>
+											</svg>-->
+											<span class="uk-visible@m"> Search</span>
+										</a>
+
+									</li>
+									<li class="uk-visible@m"><a href="">Add company</a></li>
+									<li class="uk-visible@m"><a href="">Sign In</a></li>
+									<li class="uk-visible@m"><a href="">Log In</a></li>
+
+									<!--бургер-->
+									<li><a class="uk-navbar-toggle uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></li>
+								</ul>
+							</div>
+						</div>
+
+
+						
+
+						<!--форма поиска-->
+						<div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+						<!--класс с самой формой ввода-->
+							<div   class="uk-width-expand uk-padding-remove-left header-search"><!--удален класс uk-navbar-item -->
+								<form class="uk-search uk-search-navbar uk-width-1-1">
+									<input class="uk-search-input" id="search-form-input" type="search" placeholder="Search..." autofocus>
+								</form>
+							</div>
+
+							<!--кнопка закрытия поиска-->
+							<a class="uk-navbar-toggle header-search" data-uk-close data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+						</div>
+
+
+
+
+					</nav>
+
+
+				</div>
+			</header>
+			<!--/HEADER-->
+
+
+
+
+
+
+
+
+			<div class="uk-container  uk-margin-xlarge-bottom">
+				<div class=" uk-grid-divider " uk-grid="">
+					
+
+
+					<!--Left-->
+
+					<div class="uk-first-column uk-width-auto uk-visible@m" uk-height-viewport="expand: true">
+
+						<section class="uk-section uk-padding-remove uk-margin-medium-top">
+						<div class="uk-container">
+
+
+
+
+							<ul class="uk-nav uk-nav-default account-menu">
+								<li class="uk-active"><a href="#">Requests</a></li>
+								<li><a href="#"> Your feedbacks </a></li>
+								<li><a href="#"> Bookmarks </a></li>
+								<li><a href="#"> Settings </a></li>
+								<hr>
+								<li><a href="#"> Dashboard </a></li>
+								<li><a href="#"> Requests</a></li>
+								<li><a href="#"> Compaign profile </a></li>
+								<li><a href="#"> Services </a></li>
+								<li><a href="#"> Feedbacks </a></li>
+
+
+
+
+							</ul>
+
+
+						</div>
+						</section>
+					</div>
+					<!--/Left-->
+
+
+
+
+					<!--right-->
+					<div class="uk-width-expand uk-margin-remove">
+
+
+
+						<section class="uk-section uk-padding-remove uk-margin-medium-top uk-margin-medium-bottom"> <!--uk-height-viewport="expand: true"-->
+							<div class="uk-container">
+
+
+
+								<h3 class="uk-text-bold uk-h3 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">Settings & Personal information</h3>
+		
+		<!--Personal-->
+		<h4 class="uk-text-bold uk-h5 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">Personal</h4>
+			<div class="uk-grid uk-grid-medium">
+				<div class="uk-width-1-2">
+					<ul class="uk-list uk-list-space">
+						<li class="uk-text-right">Your username</li>
+						<li class="uk-text-right">Your email & rophos ID</li>
+						<li class="uk-text-right">Password</li>
+					</ul>
+				</div>
+				<div class="uk-width-1-2">
+					<ul class="uk-list uk-list-space uk-text-bold">
+						<li class="uk-text-left">cheshirski_kot</li>
+						<li class="uk-text-left">ivan_adamovich.by@gmail.com</li>
+						<li class="uk-text-left">***</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--Уведомления-->
+		<h4 class="uk-text-bold uk-h5 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">Notifications</h4>
+			<div class="uk-grid uk-grid-medium">
+				<div class="uk-width-1-2">
+					<ul class="uk-list uk-list-space">
+						<li class="uk-text-right">Email notifications</li>
+					</ul>
+				</div>
+				<div class="uk-width-1-2">
+					<ul class="uk-list uk-list-space uk-text-bold">
+						<li class="uk-text-left">Send me notifications and new functions</li>
+					</ul>
+				</div>
+			</div>
+
+			<!--Местонахождение-->
+		<h4 class="uk-text-bold uk-h5 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">Localisation</h4>
+			<div class="uk-grid uk-grid-medium">
+				<div class="uk-width-1-2">
+				<ul class="uk-list uk-list-space">
+					<li class="uk-text-right">Default localisation</li>
+					<li class="uk-text-right">Language</li>
+				</ul>
+				</div>
+				<div class="uk-width-1-2">
+				<ul class="uk-list uk-list-space uk-text-bold uk-text-left">
+					<li>Беларусь <i class="angle-right"></i> Минск</li>
+					<li>English</li>
+				</ul>
+				</div>
+			</div>
+		
+		<h4 class="uk-text-bold uk-h5 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">Security</h4>
+		<div class="uk-grid uk-grid-medium">
+			<div class="uk-width-1-2">
+				<ul class="uk-list uk-list-space uk-text-right">
+					<li>Last sessions</li>
+					<li>Sign out of all other sessions</li>
+				</ul>
+			</div>
+			<div class="uk-width-1-2">
+				<ul class="uk-list uk-list-space uk-text-bold uk-text-left">
+					<li>Show</li>
+					<li>Sign out</li>
+				</ul>
+			</div>
+		</div>
+			
+		<h4 class="uk-text-bold uk-h5 uk-margin-remove-adjacent uk-margin-remove-top uk-text-left">System</h4>
+		<div class="uk-grid uk-grid-medium">
+				<div class="uk-width-1-2">
+					<ul class="uk-list uk-list-space uk-text-right">
+						<li>Pause account</li>
+						<li>Download your information</li>
+						<li>Delete account</li>
+					</ul>
+				</div>
+				<div>
+					<ul class="uk-list uk-list-space uk-text-bold uk-text-left">
+						<li>Stop all placements</li>
+						<li>Download zip</li>
+						<li>Delete account with all information</li>
+					</ul>
+				</div>
+			</div>
+
+					</div>
+					<!--right-->
+					
+
+				</div>
+			</div>
+
+
+
+			<!--FOOTER-->
+			<footer class="uk-section uk-padding-remove">
+
+
+				<div class="uk-container">
+					<hr class=" uk-margin-remove-bottom">
+					<nav class="uk-navbar uk-overflow-auto uk-margin-small-top uk-margin-small-bottom footer-nav" uk-navbar>
+						<div class="uk-navbar-left ">
+
+							<ul class="uk-navbar-nav nav-scroll uk-overflow-auto uk-flex uk-text-nowrap   uk-flex-nowrap">
+
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">For companies</a></li>
+
+
+							</ul>
+
+						</div>
+						<div class="uk-navbar-right uk-visible@m">
+
+							<ul class="uk-navbar-nav">
+								<div class="uk-width-auto uk-text-right footer-social-icons">
+									<a href="#" class="uk-icon-link uk-icon " data-uk-icon="icon: facebook"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <path d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z"></path></svg></a>
+									<a href="#" class="uk-icon-link uk-icon uk-margin-small-left" data-uk-icon="icon: twitter"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <path d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74"></path></svg></a>
+									<a href="#" class="uk-icon-link uk-icon uk-margin-small-left" data-uk-icon="icon: instagram"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <path d="M13.55,1H6.46C3.45,1,1,3.44,1,6.44v7.12c0,3,2.45,5.44,5.46,5.44h7.08c3.02,0,5.46-2.44,5.46-5.44V6.44 C19.01,3.44,16.56,1,13.55,1z M17.5,14c0,1.93-1.57,3.5-3.5,3.5H6c-1.93,0-3.5-1.57-3.5-3.5V6c0-1.93,1.57-3.5,3.5-3.5h8 c1.93,0,3.5,1.57,3.5,3.5V14z"></path> <circle cx="14.87" cy="5.26" r="1.09"></circle> <path d="M10.03,5.45c-2.55,0-4.63,2.06-4.63,4.6c0,2.55,2.07,4.61,4.63,4.61c2.56,0,4.63-2.061,4.63-4.61 C14.65,7.51,12.58,5.45,10.03,5.45L10.03,5.45L10.03,5.45z M10.08,13c-1.66,0-3-1.34-3-2.99c0-1.65,1.34-2.99,3-2.99s3,1.34,3,2.99 C13.08,11.66,11.74,13,10.08,13L10.08,13L10.08,13z"></path></svg></a>
+								</div>
+
+
+							</ul>
+
+						</div>
+					</nav>
+				</div>
+			</footer>
+			<!--/FOOTER-->
+
+
+
+
+			<!-- OFFCANVAS -->
+			<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: true" class="uk-offcanvas" style="">
+				<div class="uk-offcanvas-bar">
+					<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close=""><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>
+					<ul class="uk-nav uk-nav-default">
+						<li class="uk-active"><a href="#">Active</a></li>
+						<li class="uk-parent">
+							<a href="#">Parent</a>
+							<ul class="uk-nav-sub">
+								<li class=""><a href="#">Sub item</a></li>
+								<li><a href="#">Sub item</a></li>
+							</ul>
+						</li>
+						<li class="uk-nav-header">Header</li>
+						<li><a href="#js-options"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <rect x="1" y="3" width="18" height="1"></rect> <rect x="1" y="7" width="18" height="1"></rect> <rect x="1" y="11" width="18" height="1"></rect> <rect x="1" y="15" width="18" height="1"></rect></svg></span> Item</a></li>
+						<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <rect fill="none" stroke="#000" x="3.5" y="3.5" width="5" height="5"></rect> <rect fill="none" stroke="#000" x="11.5" y="3.5" width="5" height="5"></rect> <rect fill="none" stroke="#000" x="11.5" y="11.5" width="5" height="5"></rect> <rect fill="none" stroke="#000" x="3.5" y="11.5" width="5" height="5"></rect></svg></span> Item</a></li>
+						<li class="uk-nav-divider"></li>
+						<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: trash"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <polyline fill="none" stroke="#000" points="6.5 3 6.5 1.5 13.5 1.5 13.5 3"></polyline> <polyline fill="none" stroke="#000" points="4.5 4 4.5 18.5 15.5 18.5 15.5 4"></polyline> <rect x="8" y="7" width="1" height="9"></rect> <rect x="11" y="7" width="1" height="9"></rect> <rect x="2" y="3" width="16" height="1"></rect></svg></span> Item</a></li>
+					</ul>
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<!-- /OFFCANVAS -->
+
+
+		</div>
+
+
+
+		<!-- JS FILES -->
+
+	</body>
+</html>
